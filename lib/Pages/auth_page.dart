@@ -50,19 +50,23 @@ class _AuthPageState extends State<AuthPage> {
           return null;
         },
         onLogin: (data) async {
-          User? user = await firebaseProvider.firebaseServices
-              .signInWithEmailAndPassword(data.name, data.password);
-          if (user != null) {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(
-                builder: (context) => const RootPage(),
-              ),
-            );
-          } else {
-            return "Login failed!\nInvalid email or password";
+          try {
+            User? user = await firebaseProvider.firebaseServices
+                .signInWithEmailAndPassword(data.name, data.password);
+            if (user != null) {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const RootPage(),
+                ),
+              );
+            } else {
+              return "Login failed!\nInvalid email or password";
+            }
+            return null;
+          } on Exception catch (e) {
+            return e.toString();
           }
-          return null;
         },
         onRecoverPassword: (email) async {
           await firebaseProvider.firebaseServices.sendPasswordResetEmail(email);

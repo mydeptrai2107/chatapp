@@ -1,6 +1,7 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:chatapp/Pages/change_password_page.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -10,7 +11,6 @@ import 'package:provider/provider.dart';
 import 'package:chatapp/Pages/auth_page.dart';
 import 'package:chatapp/Pages/chat_page.dart';
 import 'package:chatapp/Pages/profile_picture_view_page.dart';
-import 'package:chatapp/Pages/settings_page.dart';
 import 'package:chatapp/Pages/current_user_info_page.dart';
 import 'package:chatapp/Provider/firebase_provider.dart';
 
@@ -186,6 +186,35 @@ class _HomePageState extends State<HomePage> {
                 /*
                 Drawer Options
                 */
+
+                ListTile(
+                  title: const Text("Profile"),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const CurrentUserInfoPage(),
+                      ),
+                    );
+                  },
+                ),
+                const Divider(
+                  thickness: 1,
+                ),
+                ListTile(
+                  title: const Text("Change Password"),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const ChangePasswordPage(),
+                      ),
+                    );
+                  },
+                ),
+                const Divider(
+                  thickness: 1,
+                ),
                 ListTile(
                   title: const Text("Theme"),
                   trailing: Switch(
@@ -196,21 +225,6 @@ class _HomePageState extends State<HomePage> {
                           : AdaptiveThemeMode.light);
                     },
                   ),
-                ),
-                const Divider(
-                  thickness: 1,
-                ),
-                ListTile(
-                  title: const Text("Settings"),
-                  trailing: const Icon(Icons.settings),
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const SettingsPage(),
-                      ),
-                    );
-                  },
                 ),
                 const Spacer(),
                 const Divider(
