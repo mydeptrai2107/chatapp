@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "1081067066927",
+    "firebase_url": "https://diary1915-878fd-default-rtdb.firebaseio.com",
+    "project_id": "diary1915-878fd",
+    "storage_bucket": "diary1915-878fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081067066927:android:8a3554e87a2b4624f318da",
+        "android_client_info": {
+          "package_name": "com.ehsan.talkflow_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081067066927-rmrjaugje9av0be1du9mmor9gd245e5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKm7rmwCwvvfpjLePBbNFWcPp09O9_I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081067066927-3vlckoa3mj276qf32vgr1vfce03qcn0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1081067066927-8hlptljlds25elfee11b8rhr3c2bjfkl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doanCleanAchitec"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081067066927:android:77bcca54c751f22bf318da",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081067066927-rmrjaugje9av0be1du9mmor9gd245e5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKm7rmwCwvvfpjLePBbNFWcPp09O9_I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081067066927-3vlckoa3mj276qf32vgr1vfce03qcn0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1081067066927-8hlptljlds25elfee11b8rhr3c2bjfkl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doanCleanAchitec"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081067066927:android:8a196bf7a1f37e76f318da",
+        "android_client_info": {
+          "package_name": "com.example.doan_clean_achitec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081067066927-rmrjaugje9av0be1du9mmor9gd245e5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKm7rmwCwvvfpjLePBbNFWcPp09O9_I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081067066927-3vlckoa3mj276qf32vgr1vfce03qcn0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1081067066927-8hlptljlds25elfee11b8rhr3c2bjfkl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doanCleanAchitec"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081067066927:android:bfdf16b6e9dca53bf318da",
+        "android_client_info": {
+          "package_name": "com.example.mapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081067066927-rmrjaugje9av0be1du9mmor9gd245e5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKm7rmwCwvvfpjLePBbNFWcPp09O9_I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081067066927-3vlckoa3mj276qf32vgr1vfce03qcn0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1081067066927-8hlptljlds25elfee11b8rhr3c2bjfkl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doanCleanAchitec"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
